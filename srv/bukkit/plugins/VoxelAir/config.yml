@@ -1,0 +1,7 @@
+thrust: 3
+allowHover: true
+derp: false
+allowClassicFRF: true
+cruise: 110
+globalAllowFlying: true
+consume: false

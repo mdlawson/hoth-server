@@ -1,0 +1,10 @@
+informPlayers: true
+enable: true
+itemRestrictions: true
+messages:
+    prohibitedItem: You have prohibited item "%s"
+    whitelistMessage: You are not allowed to join this server. Goodbye!
+    permissionDenied: Sorry, you don't have enough permissions to do that
+    whitelist: You are not allowed to join this server. Goodbye!
+whitelist: false
+drop-restricted-item: false

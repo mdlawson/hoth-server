@@ -1,0 +1,13 @@
+permissions:
+    backends:
+        file:
+            file: permissions.yml
+    backend: file
+    superperms:
+        parent-nodes: true
+        enable: true
+        strict-mode: false
+    createUserRecords: true
+    allowOps: false
+    debug: false
+    basedir: plugins/PermissionsEx

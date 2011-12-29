@@ -1,0 +1,26 @@
+check:
+    destination:
+        paranoid: true
+string:
+    message:
+        destroy:
+            denied: You don't have permission to destroy that sign lift
+        lift:
+            denied: You don't have permission to use this lift
+        create:
+            denied: You don't have permission to create that sign lift
+    normal:
+        open: '['
+        close: ']'
+    lift: LIFT
+    down:
+        default: Going Down
+        lift: LIFT DOWN
+        format: Going to %s
+    up:
+        default: Going Up
+        lift: LIFT UP
+        format: Going to %s
+    private:
+        open: '{'
+        close: '}'

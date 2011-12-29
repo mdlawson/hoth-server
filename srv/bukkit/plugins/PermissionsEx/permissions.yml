@@ -1,0 +1,321 @@
+groups:
+    default:
+        default: true
+        permissions:
+        - bukkit.command.tell
+        - bcguestunlock.guest
+        - -bukkit.command.*.*
+        - -bukkit.command.time.*
+        - -bukkit.command.say
+        - -bukkit.command.op
+        - -bukkit.command.*
+        - modifyworld.chat
+        prefix: '&3[GUEST] &7'
+    builder:
+        prefix: '&2[BUILDER] &7'
+        permissions:
+        - -worldedit.*
+        - -bukkitstop
+        - -modifyworld.block.place.46
+        - bukkit.command.teleport
+        - iConomy.payment
+        - ChestShop.shop.*
+        - RepairShop.use
+        - iConomy.holdings
+        - alerter.protect.object
+        - ScizzrHome.basic.*
+        - QuantumConnectors.create.*
+        - signlift.create.*
+        - mywarp.warp.*
+        - modifyworld.*
+    vip:
+        prefix: '&6[VIP] &7'
+        permissions:
+        - iConomy.payment
+        - ChestShop.shop.*
+        - RepairShop.use
+        - iConomy.holdings
+        - ScizzrHome.basic.*
+        - -modifyworld.mobtarget.monster.*
+        - bukkit.command.gamemode
+        - QuantumConnectors.create.*
+        - signlift.create.*
+        - mywarp.warp.*
+        - modifyworld.*
+    admin:
+        prefix: '&5[ADMIN] &7'
+        permissions:
+        - -bukkit.command.say
+        - epiczones.admin
+        - -worldedit.*
+        - ChestShop.*
+        - -modifyworld.mobtarget.monster.*
+        - Scizzrhome.*
+        - '*'
+    add:
+        permissions:
+        - -modifyworld.mobtarget.monster.*
+users:
+    faithert:
+        group:
+        - builder
+    omnomnoms:
+        group:
+        - admin
+        permissions:
+        - permissions.*
+    abrahamarmite:
+        group:
+        - admin
+        permissions:
+        - permissions.*
+    AraSyn:
+        group:
+        - builder
+    proatwork:
+        group:
+        - builder
+    twoshrubs:
+        group:
+        - builder
+    RadonGaming:
+        group:
+        - vip
+    th3ant:
+        group:
+        - admin
+        permissions:
+        - worldedit.*
+    hobbby203:
+        group:
+        - admin
+    hampster900:
+        group:
+        - admin
+    hornymonkey100:
+        group:
+        - builder
+    Hobby203:
+        group:
+        - admin
+        permissions:
+        - permissions.*
+        - worldedit.butcher
+    jamzeeboii:
+        group:
+        - builder
+    Trueblue62:
+        group:
+        - admin
+        permissions:
+        - -modifyworld.block.place.76
+        - -modifyworld.block.76
+    L337Mods:
+        group:
+        - admin
+    BeanMachine234:
+        group:
+        - builder
+    leon1236:
+        group:
+        - builder
+    BladeRunna:
+        group:
+        - builder
+    matt1217:
+        group:
+        - builder
+    smellaykelly:
+        group:
+        - builder
+    aambss:
+        group:
+        - builder
+    camrocks17:
+        group:
+        - builder
+    alextra:
+        group:
+        - builder
+    akextra:
+        group:
+        - builder
+    katotoro:
+        group:
+        - builder
+    deadly_migit:
+        group:
+        - builder
+    wertel:
+        group:
+        - builder
+    chrisjat:
+        group:
+        - default
+    armbot:
+        group:
+        - default
+    sarvermason:
+        group:
+        - builder
+    mgp_kid:
+        group:
+        - builder
+    KingLars2572:
+        group:
+        - default
+    Koenser:
+        group:
+        - default
+    IProHead:
+        group:
+        - builder
+    Zowcor:
+        group:
+        - builder
+    MoTToMaDDness:
+        group:
+        - builder
+    jack123498:
+        group:
+        - default
+    zapdos54:
+        group:
+        - default
+    Greenlewiegee:
+        group:
+        - default
+    gameslider:
+        group:
+        - default
+    Timkay:
+        group:
+        - default
+    jusitin96:
+        group:
+        - default
+    RichtheNinja:
+        group:
+        - builder
+    totoe:
+        group:
+        - default
+    Minecrafter_101:
+        group:
+        - builder
+    SkyBluesCCFC:
+        group:
+        - builder
+    Banterlope:
+        group:
+        - builder
+    The79thStreet:
+        group:
+        - default
+    DivineLight:
+        group:
+        - default
+    Zomdad3:
+        group:
+        - default
+    seniorblobby:
+        group:
+        - default
+    zomboy3:
+        group:
+        - builder
+    wikawoo:
+        group:
+        - default
+    swiftstar2:
+        group:
+        - default
+    jack1005:
+        group:
+        - builder
+    joshs93:
+        group:
+        - default
+    toddtj:
+        group:
+        - default
+    coffinfiller0:
+        group:
+        - default
+    DarkLord13:
+        group:
+        - builder
+        permissions:
+        - worldedit.*
+    Deeox2:
+        group:
+        - builder
+    snip3Zx94:
+        group:
+        - builder
+    asastorm:
+        group:
+        - default
+    trublue62:
+        group:
+        - default
+    Westy_The_Pig:
+        group:
+        - default
+    Waffle801:
+        group:
+        - default
+    Scotty8D:
+        group:
+        - builder
+    iJoseph:
+        group:
+        - default
+    jzapotezny:
+        group:
+        - default
+    NLbeau:
+        group:
+        - default
+    lollobest:
+        group:
+        - default
+    alexbowell:
+        group:
+        - default
+    BlackFireTech:
+        group:
+        - builder
+    vikro02:
+        group:
+        - default
+    the_magic:
+        group:
+        - builder
+    mattcrafter2001:
+        group:
+        - default
+    RiciRich1:
+        group:
+        - default
+    hicko123:
+        group:
+        - default
+    welly_d:
+        group:
+        - default
+    J3rotherhood:
+        group:
+        - default
+    blazef104:
+        group:
+        - default
+    Pikadude:
+        group:
+        - default
+    Markdman:
+        group:
+        - default
+    iTzTrebbz:
+        group:
+        - default

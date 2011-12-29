@@ -1,0 +1,9 @@
+maxPublic = 5   #Maximum number of public warps any player can make
+maxPrivate = 10   #Maximum number of private warps any player can make
+mySQLuname = root   #MySQL Username (only if using MySQL)
+usemySQL = false   #MySQL usage --  true = use MySQL database / false = use SQLite
+adminPrivateWarps = true   #Whether or not admins can see private warps in their list
+mySQLconn = jdbc:mysql://localhost:3306/minecraft   #MySQL Connection (only if using MySQL)
+mySQLpass = password   #MySQL Password (only if using MySQL)
+loadChunks = false   #Force sending of the chunk which people teleport to - default: false
+adminsObeyLimits = false   #Whether or not admins can disobey warp limits

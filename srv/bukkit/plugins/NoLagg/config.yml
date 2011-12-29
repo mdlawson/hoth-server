@@ -1,0 +1,21 @@
+bufferItems: true
+bufferTNT: true
+useSpawnLimits: true
+useChunkUnloadDelay: true
+tntDetonationInterval: 1
+tntDetonationRate: 10
+explosionRate: 5
+maxItemsPerChunk: 40
+formItemStacks: true
+chunkUnloadDelay: 10000
+autoSaveInterval: 400
+updateInterval: 20
+stackRadius: 1.0
+stackThreshold: 2
+monitorInterval: 40
+autoFixLighting: false
+chunkSending:
+  enabled: true
+  minRate: 0.25
+  maxRate: 2.0
+  boost: 25

@@ -1,0 +1,25 @@
+world_hoth:
+    disable-snow-accumulation: true
+    disable-lightning: true
+    disable-thunder: true
+    disable-weather: true
+world_hoth_nether:
+    disable-snow-accumulation: true
+    disable-lightning: true
+    disable-thunder: true
+    disable-weather: true
+world_hoth_skylands:
+    disable-snow-accumulation: true
+    disable-lightning: true
+    disable-thunder: true
+    disable-weather: true
+world_hoth_the_end:
+    disable-snow-accumulation: true
+    disable-lightning: true
+    disable-thunder: true
+    disable-weather: true
+newWorld:
+    disable-snow-accumulation: true
+    disable-lightning: true
+    disable-thunder: true
+    disable-weather: true

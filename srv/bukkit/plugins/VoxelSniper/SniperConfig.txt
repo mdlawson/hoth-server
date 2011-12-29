@@ -1,0 +1,7 @@
+#VoxelSniper config file v4.705
+#Add BLOCK Id's seperated by a ' , ' like so:
+#SniperLiteUnusableIds:7,8,9,10,11
+SniperLiteUnusableIds:10,11
+MaxLiteBrushSize:5
+SmiteVoxelFOXoffenders=false
+EnableVoxelFood=false

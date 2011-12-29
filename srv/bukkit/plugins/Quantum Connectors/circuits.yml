@@ -1,0 +1,287 @@
+world:
+    circuit_10:
+        sender: 1121,90,-110
+        type: 0
+        receivers:
+        - 1119,101,-106,world
+    circuit_11:
+        sender: 196,86,44
+        type: 0
+        receivers:
+        - 196,85,44,world
+    circuit_12:
+        sender: 191,85,41
+        type: 4
+        receivers:
+        - 195,86,37,world
+    circuit_5:
+        sender: 1119,90,-110
+        type: 0
+        receivers:
+        - 1125,94,-103,world
+    circuit_4:
+        sender: 200,88,41
+        type: 0
+        receivers:
+        - 196,85,44,world
+    circuit_3:
+        sender: 222,63,85
+        type: 0
+        receivers:
+        - 222,94,73,world
+    circuit_2:
+        sender: 216,90,66
+        type: 0
+        receivers:
+        - 222,94,73,world
+    circuit_13:
+        sender: 195,74,60
+        type: 3
+        receivers:
+        - 195,73,60,world
+    circuit_1:
+        sender: 219,63,59
+        type: 0
+        receivers:
+        - 220,65,51,world
+    circuit_0:
+        sender: 219,63,56
+        type: 0
+        receivers:
+        - 220,64,52,world
+    circuit_6:
+        sender: 197,70,57
+        type: 3
+        receivers:
+        - 195,73,60,world
+    circuit_7:
+        sender: 224,63,79
+        type: 0
+        receivers:
+        - 216,101,70,world
+    circuit_8:
+        sender: 193,84,45
+        type: 0
+        receivers:
+        - 198,86,38,world
+    circuit_9:
+        sender: 218,90,66
+        type: 0
+        receivers:
+        - 216,101,70,world
+world_hoth:
+    circuit_10:
+        sender: 263,62,413
+        type: 0
+        receivers:
+        - 266,65,402,world_hoth
+    circuit_11:
+        sender: -3,62,-306
+        type: 0
+        receivers:
+        - -70,46,-322,world_hoth
+    circuit_30:
+        sender: -116,47,-119
+        type: 1
+        receivers:
+        - -115,46,-96,world_hoth
+    circuit_12:
+        sender: -318,63,166
+        type: 0
+        receivers:
+        - -329,64,209,world_hoth
+    circuit_31:
+        sender: -533,96,-600
+        type: 0
+        receivers:
+        - -534,100,-600,world_hoth
+    circuit_32:
+        sender: -190,90,-304
+        type: 0
+        receivers:
+        - -196,94,-302,world_hoth
+    circuit_33:
+        sender: -136,62,-71
+        type: 3
+        receivers:
+        - -136,60,-73,world_hoth
+    circuit_34:
+        sender: -65,60,105
+        type: 4
+        receivers:
+        - -45,66,132,world_hoth
+    circuit_35:
+        sender: -232,65,-197
+        type: 0
+        receivers:
+        - -233,65,-197,world_hoth
+    circuit_5:
+        sender: -232,64,-197
+        type: 1
+        receivers:
+        - -232,65,-197,world_hoth
+    circuit_17:
+        sender: -65,64,132
+        type: 4
+        receivers:
+        - -45,66,132,world_hoth
+    circuit_36:
+        sender: -114,47,-119
+        type: 1
+        receivers:
+        - -115,46,-96,world_hoth
+    circuit_4:
+        sender: -73,51,-330
+        type: 0
+        receivers:
+        - -6,61,-303,world_hoth
+    circuit_18:
+        sender: -116,49,-97
+        type: 3
+        receivers:
+        - -115,46,-96,world_hoth
+    circuit_37:
+        sender: 271,92,975
+        type: 0
+        receivers:
+        - 275,96,982,world_hoth
+    circuit_3:
+        sender: -230,64,-173
+        type: 1
+        receivers:
+        - -236,61,-172,world_hoth
+    circuit_19:
+        sender: -65,64,134
+        type: 0
+        receivers:
+        - -56,61,133,world_hoth
+    circuit_38:
+        sender: -260,63,-220
+        type: 2
+        receivers:
+        - -263,78,-221,world_hoth
+    circuit_2:
+        sender: -260,63,-218
+        type: 1
+        receivers:
+        - -263,78,-221,world_hoth
+    circuit_39:
+        sender: -119,63,-76
+        type: 0
+        receivers:
+        - -119,63,-70,world_hoth
+    circuit_1:
+        sender: 1099,68,-1909
+        type: 0
+        receivers:
+        - 1099,64,-1910,world_hoth
+    circuit_13:
+        sender: -233,64,-197
+        type: 0
+        receivers:
+        - -233,65,-197,world_hoth
+    circuit_0:
+        sender: 24,64,121
+        type: 0
+        receivers:
+        - 2,64,108,world_hoth
+    circuit_14:
+        sender: -138,65,-116
+        type: 2
+        receivers:
+        - -144,64,-118,world_hoth
+    circuit_15:
+        sender: -229,64,-173
+        type: 2
+        receivers:
+        - -236,61,-172,world_hoth
+    circuit_16:
+        sender: -2504,65,-959
+        type: 0
+        receivers:
+        - -2503,65,-959,world_hoth
+    circuit_22:
+        sender: -138,65,-121
+        type: 2
+        receivers:
+        - -144,64,-118,world_hoth
+    circuit_23:
+        sender: 269,92,975
+        type: 0
+        receivers:
+        - 269,103,979,world_hoth
+    circuit_20:
+        sender: -320,63,156
+        type: 0
+        receivers:
+        - -331,64,209,world_hoth
+    circuit_21:
+        sender: -534,99,-600
+        type: 0
+        receivers:
+        - -534,100,-600,world_hoth
+    circuit_26:
+        sender: -2495,65,-959
+        type: 0
+        receivers:
+        - -2494,65,-959,world_hoth
+    circuit_27:
+        sender: 1277,67,-1982
+        type: 0
+        receivers:
+        - 1270,76,-2019,world_hoth
+    circuit_24:
+        sender: -233,65,-197
+        type: 1
+        receivers:
+        - -232,65,-197,world_hoth
+    circuit_42:
+        sender: -138,65,-120
+        type: 1
+        receivers:
+        - -144,64,-118,world_hoth
+    circuit_25:
+        sender: -90,69,-111
+        type: 0
+        receivers:
+        - -93,53,-118,world_hoth
+    circuit_41:
+        sender: -190,90,-306
+        type: 0
+        receivers:
+        - -196,100,-302,world_hoth
+    circuit_40:
+        sender: -65,60,107
+        type: 0
+        receivers:
+        - -56,59,108,world_hoth
+    circuit_28:
+        sender: 626,72,-601
+        type: 0
+        receivers:
+        - 620,72,-590,world_hoth
+    circuit_29:
+        sender: -3,62,-308
+        type: 0
+        receivers:
+        - -68,46,-322,world_hoth
+    circuit_6:
+        sender: -45,92,158
+        type: 0
+        receivers:
+        - -45,89,162,world_hoth
+    circuit_7:
+        sender: -21,70,176
+        type: 0
+        receivers:
+        - -20,67,174,world_hoth
+    circuit_8:
+        sender: -3,61,-303
+        type: 0
+        receivers:
+        - -68,46,-324,world_hoth
+    circuit_9:
+        sender: -269,63,-217
+        type: 2
+        receivers:
+        - -263,67,-214,world_hoth

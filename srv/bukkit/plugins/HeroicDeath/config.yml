@@ -1,0 +1,41 @@
+events:
+    only: false
+colors:
+    message: RED
+    item: GOLD
+    name: DARK_AQUA
+monsters:
+    monster: Monster
+    pigzombie: PigZombie
+    cow: Cow
+    enderman: Enderman
+    unknown: Unknown
+    skeleton: Skeleton
+    creeper: Creeper
+    squid: Squid
+    pig: Pig
+    chicken: Chicken
+    ghast: Ghast
+    slime: Slime
+    zombie: Zombie
+    wolf: Wolf
+    cavespider: Cave Spider
+    sheep: Sheep
+    spider: Spider
+    silverfish: Silverfish
+    giant: Giant
+log:
+    files:
+        data: death_data.log
+        messages: death_messages.log
+    time:
+        stamp: true
+        format: MM/dd/yyyy HH:mm:ss z
+    data: true
+    messages: true
+options:
+    serverBroadcast: true
+    useDisplayName: false
+    worlds:
+        loud: []
+        quiet: []
