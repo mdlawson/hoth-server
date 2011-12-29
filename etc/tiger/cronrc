@@ -1,0 +1,105 @@
+#
+# Default 'tigercron' cronrc file...
+#
+# You can run the different checks in stages, without having to
+# clutter up the crontab for root. You can do all the checks in one
+# step or (like this file does) separate all the checks in different
+# stages.
+#
+#------------------------------------------------------------------------
+#
+# Field 1:  Comma separated list of hours (0-23) or '*' when this should
+#           be run.
+#
+# Field 2:  Comma separated list of days of month or '*' when this should
+#           be run.
+#
+# Field 3:  Comma separated list of days of week or '*' when this should
+#           be run.  Days of week must be exactly as 'date' prints.
+#
+# Remaining fields:  Scripts to execute (no newlines or \ allowed)
+#
+# ----------------------------------------------------------------------
+#
+# The following are the default settings for Debian if you do not want
+# to separate checks change this as needed (and suited to your security
+# policy). 
+# 
+# ----------------------------------------------------------------------
+# Check for known intrusion signs every 8 hours
+#
+0,8,16 * *	check_known check_rootkit check_logfiles check_runprocs check_rootdir check_root
+# [experimental]
+# Check_finddeleted is very verbose and needs to be adjusted so we run
+# it less often, admins that want to run it more often are suggested
+# to look up how does the ignore mechanism works. In busy servers many
+# false positives might appear because of normal user access.
+# Some applications might generate false positives too due to the 
+# way they behave.  Also, this script requires LSOF, so only enable
+# it if you have it installed.
+#1 * * check_finddeleted 
+# ----------------------------------------------------------------------
+# Make system-specific checks every day at 1 am
+# Notice: System specific checks can be enabled in the 
+# $OS/$REL/$ARCH/check script or run independently as in the
+# commented line below
+#
+1 * * check_system
+# Notice: this checks are Debian-specific, enabling them is 
+# redundant with Linux checks.
+#1 * *	deb_checkmd5sums deb_nopackfiles deb_checkadvisories
+# ----------------------------------------------------------------------
+# Get a list of listening processes every day at different hours
+#
+0,4,6,10,14,18,20 * *		check_listeningprocs
+#
+# ----------------------------------------------------------------------
+# Check for usual account information every day at 2 am.
+#
+2 * *		check_accounts check_rhosts check_netrc check_group check_passwd check_passwdformat
+#
+# ----------------------------------------------------------------------
+# Check for file permissions and user passwds every day at 5 am
+#
+5 * *		check_perms
+#
+# ----------------------------------------------------------------------
+# Check for network configuration every Monday
+#
+3 * Mon		check_inetd check_exports check_aliases check_path check_crontabs check_anonftp check_printcap check_tcpd
+#
+# ----------------------------------------------------------------------
+# Check for strange file ownerships once a month
+#
+2 1 *         find_files 
+2 3 *         check_devices
+#
+# ----------------------------------------------------------------------
+# Check for system configuration once a month
+#
+1 2 *         check_services check_umask check_ftpusers check_embedded check_exrc
+#
+# ----------------------------------------------------------------------
+# Run a password cracker against the local passwords once a month
+# This is removed since a) it does not work and b) the functionality is
+# provided by the 'john' package
+#2 2 *           crack_run
+#
+# Run an integrity checker once every week.
+#
+# This is not enabled by default since many integrity checkers provide 
+# this already upon installation. If yours does not uncomment the lines below
+# depending on your selected/installed integrity checker.
+#
+# For tripwire:
+#5 * Mon	tripwire_run
+#
+# For aide:
+#5 * Mon	aide_run
+#
+# For integrit:
+#5 * Mon	integrit_run
+#
+# For internal signature checks (not reliable nor update, use only if you
+# have manually updated /usr/lib/tiger/systems/$OS/$VERSION/signatures
+#5 * Mon        check_signatures

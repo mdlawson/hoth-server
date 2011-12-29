@@ -1,0 +1,7 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>	<dir>	<type>	<options>	<dump>	<pass>
+tmpfs		/tmp	tmpfs	nodev,nosuid	0	0
+/dev/sda1 / reiserfs defaults,user_xattr,acl 0 1
+https://dav.otixo.com /cloud davfs noauto 0 0

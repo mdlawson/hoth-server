@@ -1,0 +1,52 @@
+#!/bin/bash
+
+. /etc/rc.conf
+. /etc/rc.d/functions
+
+if [[ ! -x /usr/sbin/ifplugd ]]; then
+   echo "Please install 'ifplugd' to use net-auto-wired"
+   exit 1
+fi  
+
+CFG=/etc/ifplugd/ifplugd.conf
+ACTION=/etc/ifplugd/netcfg.action
+PIDFILE=/var/run/ifplugd.$WIRED_INTERFACE.pid
+[[ -f $PIDFILE ]] && PID=$(cat $PIDFILE)
+
+# Source ifplugd configuration
+[ -f $CFG ] && . $CFG
+
+case "$1" in
+  start)
+    stat_busy "Starting netcfg auto-wired mode for interface ${WIRED_INTERFACE}"
+    A="`eval echo \$\{ARGS_${WIRED_INTERFACE}\}`"
+    [ -z "$A" ] && A="$ARGS"
+    [ -z "$PID" ] && /usr/sbin/ifplugd -i $WIRED_INTERFACE -r $ACTION $A
+    # ifplugd may return non-zero, but still succeed if -w is passed, as default in upstream config.
+    sleep 1
+    if [[ ! -f $PIDFILE ]]; then
+      stat_fail
+    else
+      add_daemon net-auto-wired
+      stat_done
+    fi
+    ;;
+  stop)
+    stat_busy "Stopping netcfg auto-wired mode for interface ${WIRED_INTERFACE}"
+    [ -n "$PID" ] && /usr/sbin/ifplugd -k -i $WIRED_INTERFACE -r $ACTION
+    if [ $? -gt 0 ]; then
+      stat_fail
+    else
+      rm_daemon net-auto-wired
+      stat_done
+    fi
+    ;;
+  restart)
+    $0 stop
+    sleep 1
+    $0 start
+    ;;
+  *)
+    echo "usage: $0 {start|stop|restart}"  
+esac
+exit 0

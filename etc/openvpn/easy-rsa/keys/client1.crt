@@ -1,0 +1,73 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=UK, ST=LN, L=London, O=CyberWalrus, OU=changeme, CN=hoth/name=hoth/emailAddress=admin@planetcu.be
+        Validity
+            Not Before: Dec 16 07:50:41 2011 GMT
+            Not After : Dec 13 07:50:41 2021 GMT
+        Subject: C=UK, ST=LN, L=London, O=CyberWalrus, OU=changeme, CN=client1/name=changeme/emailAddress=admin@planetcu.be
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:cb:e5:1c:b4:ae:03:b9:9f:28:76:32:3d:3e:5d:
+                    c7:6f:55:d4:a6:44:17:7e:75:d0:68:af:69:26:7e:
+                    27:67:ba:37:fc:29:65:c4:b3:49:ee:88:bd:2e:94:
+                    cb:96:2c:39:ef:eb:78:99:2b:b3:a9:49:a6:b7:e9:
+                    12:a3:58:0b:e1:ed:d4:da:67:4d:cc:db:ac:3c:fe:
+                    72:53:63:8c:bc:b5:0a:82:1a:e6:08:d6:bf:7e:48:
+                    21:b5:1f:a5:c8:b5:0d:e9:ee:06:2d:db:d4:31:2c:
+                    d3:4f:51:70:4f:40:54:bf:76:0a:35:4f:ba:c2:7e:
+                    f8:a8:00:a3:a2:3e:fd:f5:dd
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                26:DE:88:DE:62:4D:3E:9F:30:36:90:AA:08:F9:6F:0F:60:34:D7:C6
+            X509v3 Authority Key Identifier: 
+                keyid:E8:65:3A:B7:DE:D7:6F:9C:99:EB:53:4C:86:11:ED:CD:8E:64:A6:8C
+                DirName:/C=UK/ST=LN/L=London/O=CyberWalrus/OU=changeme/CN=hoth/name=hoth/emailAddress=admin@planetcu.be
+                serial:E1:BC:8B:48:42:3B:08:04
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+    Signature Algorithm: sha1WithRSAEncryption
+        0b:90:79:b0:d4:85:51:d2:73:7f:bd:10:2f:ef:3f:47:df:48:
+        b2:89:1c:fe:5a:aa:d1:53:32:35:8e:ad:8b:cd:2c:98:4d:85:
+        9e:27:30:5d:63:6f:22:22:ce:83:79:cd:1a:24:10:dd:4d:b9:
+        15:2f:26:54:c1:a0:c7:6e:a0:bf:c3:24:ec:6e:b6:39:31:eb:
+        fc:34:b4:b8:15:af:25:ed:d9:73:b5:bd:d2:13:b7:84:39:e4:
+        fb:d2:9e:66:af:f3:19:f7:26:b0:d7:10:b8:ca:18:dc:28:f3:
+        66:b9:2a:7c:cf:0c:54:3c:5f:da:bd:1a:78:a5:b3:1c:58:ca:
+        cc:8e
+-----BEGIN CERTIFICATE-----
+MIID9DCCA12gAwIBAgIBAjANBgkqhkiG9w0BAQUFADCBlDELMAkGA1UEBhMCVUsx
+CzAJBgNVBAgTAkxOMQ8wDQYDVQQHEwZMb25kb24xFDASBgNVBAoTC0N5YmVyV2Fs
+cnVzMREwDwYDVQQLEwhjaGFuZ2VtZTENMAsGA1UEAxMEaG90aDENMAsGA1UEKRME
+aG90aDEgMB4GCSqGSIb3DQEJARYRYWRtaW5AcGxhbmV0Y3UuYmUwHhcNMTExMjE2
+MDc1MDQxWhcNMjExMjEzMDc1MDQxWjCBmzELMAkGA1UEBhMCVUsxCzAJBgNVBAgT
+AkxOMQ8wDQYDVQQHEwZMb25kb24xFDASBgNVBAoTC0N5YmVyV2FscnVzMREwDwYD
+VQQLEwhjaGFuZ2VtZTEQMA4GA1UEAxMHY2xpZW50MTERMA8GA1UEKRMIY2hhbmdl
+bWUxIDAeBgkqhkiG9w0BCQEWEWFkbWluQHBsYW5ldGN1LmJlMIGfMA0GCSqGSIb3
+DQEBAQUAA4GNADCBiQKBgQDL5Ry0rgO5nyh2Mj0+XcdvVdSmRBd+ddBor2kmfidn
+ujf8KWXEs0nuiL0ulMuWLDnv63iZK7OpSaa36RKjWAvh7dTaZ03M26w8/nJTY4y8
+tQqCGuYI1r9+SCG1H6XItQ3p7gYt29QxLNNPUXBPQFS/dgo1T7rCfvioAKOiPv31
+3QIDAQABo4IBSzCCAUcwCQYDVR0TBAIwADAtBglghkgBhvhCAQ0EIBYeRWFzeS1S
+U0EgR2VuZXJhdGVkIENlcnRpZmljYXRlMB0GA1UdDgQWBBQm3ojeYk0+nzA2kKoI
++W8PYDTXxjCByQYDVR0jBIHBMIG+gBToZTq33tdvnJnrU0yGEe3NjmSmjKGBmqSB
+lzCBlDELMAkGA1UEBhMCVUsxCzAJBgNVBAgTAkxOMQ8wDQYDVQQHEwZMb25kb24x
+FDASBgNVBAoTC0N5YmVyV2FscnVzMREwDwYDVQQLEwhjaGFuZ2VtZTENMAsGA1UE
+AxMEaG90aDENMAsGA1UEKRMEaG90aDEgMB4GCSqGSIb3DQEJARYRYWRtaW5AcGxh
+bmV0Y3UuYmWCCQDhvItIQjsIBDATBgNVHSUEDDAKBggrBgEFBQcDAjALBgNVHQ8E
+BAMCB4AwDQYJKoZIhvcNAQEFBQADgYEAC5B5sNSFUdJzf70QL+8/R99Isokc/lqq
+0VMyNY6ti80smE2FnicwXWNvIiLOg3nNGiQQ3U25FS8mVMGgx26gv8Mk7G62OTHr
+/DS0uBWvJe3Zc7W90hO3hDnk+9KeZq/zGfcmsNcQuMoY3CjzZrkqfM8MVDxf2r0a
+eKWzHFjKzI4=
+-----END CERTIFICATE-----
